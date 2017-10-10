@@ -28,7 +28,7 @@ Kendo.DynamicLinqCore2 implements server paging, filtering, sorting and aggregat
             aggregates: "Aggregates",
             groups: "Group"
         }
-4. Import the Kendo.DynamicLinqCore namespace.
+4. Import the Kendo.DynamicLinqCore2 namespace.
 5. Use the `ToDataSourceResult` extension method to apply paging, sorting and filtering.
 
         [WebMethod]

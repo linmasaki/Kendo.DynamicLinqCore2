@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageVersion>1.0.0</PackageVersion>
-    <Authors>CoCo</Authors>
+    <Authors>CoCo Lin</Authors>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Linq.Dynamic.Core" Version="1.0.7.9"/>
