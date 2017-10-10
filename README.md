@@ -1,20 +1,20 @@
-#Kendo.DynamicLinqCore
+#Kendo.DynamicLinqCore2.0
 
 # Note
-Kendo.DynamicLinqCore is referred to Kendo.DynamicLinq by [kendo-labs](https://github.com/kendo-labs/dlinq-helpers). 
+Kendo.DynamicLinqCore2 is referred to Kendo.DynamicLinq by [kendo-labs](https://github.com/kendo-labs/dlinq-helpers). 
 Related notes can refer it.
 
 ## Description
-Kendo.DynamicLinqCore implements server paging, filtering, sorting and aggregating via Dynamic Linq for Net Core.
+Kendo.DynamicLinqCore2 implements server paging, filtering, sorting and aggregating via Dynamic Linq for .Net Core2.0.
 
-## Build NuGet package
+## Build NuGet Package
 1. Open command line console
-2. Switch to project root directory.(src\Kendo.DynamicLinqCore)
+2. Switch to project root directory.(src\Kendo.DynamicLinqCore2)
 3. Run "dotnet restore"
 4. Run "dotnet pack --configuration release" 
 
 ## Usage
-1. Add the Kendo.DynamicLinqCore NuGet package to your project.
+1. Add the Kendo.DynamicLinqCore2 NuGet package to your project.
 2. Configure your Kendo DataSource to send its options as JSON.
 
         parameterMap: function(options, type) {
@@ -50,12 +50,7 @@ Kendo.DynamicLinqCore implements server paging, filtering, sorting and aggregati
             }
         }
 
-## Examples
+## Other Examples
+This example has full demo with .Net Core2.0 by [Vahid Nasiri](https://github.com/VahidN).
 
-The following examples use Kendo.DynamicLinq(Not Kendo.DynamicLinqCore, but similar) and you can consult.
-
-- [ASP.NET MVC](https://github.com/telerik/kendo-examples-asp-net-mvc/tree/master/grid-crud)
-- [ASP.NET Web Forms and Page Methods](https://github.com/telerik/kendo-examples-asp-net/tree/master/grid-page-methods-crud)
-- [ASP.NET Web Forms and WCF](https://github.com/telerik/kendo-examples-asp-net/tree/master/grid-wcf-crud)
-- [ASP.NET Web Forms and Web Services](https://github.com/telerik/kendo-examples-asp-net/tree/master/grid-web-service-crud)
-- [ASP.NET Web Forms and Web API](https://github.com/telerik/kendo-examples-asp-net/tree/master/grid-webapi-crud)
+- [KendoUI.Core.Samples](https://github.com/VahidN/KendoUI.Core.Samples)
