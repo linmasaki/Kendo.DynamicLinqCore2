@@ -133,7 +133,7 @@ namespace Kendo.DynamicLinqCore2
             // Finally page the data
             if (take > 0)
             {
-                queryable = Page(queryable, take, skip, sort.Any());
+                queryable = Page(queryable, take, skip);
             }
 
             var result = new DataSourceResult
@@ -361,13 +361,9 @@ namespace Kendo.DynamicLinqCore2
             return queryable;
         }
 
-        private static IQueryable<T> Page<T>(IQueryable<T> queryable, int take, int skip, bool sorted)
+        private static IQueryable<T> Page<T>(IQueryable<T> queryable, int take, int skip)
         {
-            if (sorted)
-            {
-                return queryable.Skip(skip).Take(take);
-            }
-            return queryable.Take(take);
+            return queryable.Skip(skip).Take(take);   
         }
     }
 
